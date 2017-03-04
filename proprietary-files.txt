@@ -54,7 +54,6 @@ bin/qmiproxy
 bin/cnd
 bin/ds_fmc_appd
 lib/libril.so
-lib/libril-qc-qmi-1.so
 lib/libril-qcril-hook-oem.so
 lib/libsecril-client.so
 lib/libqmi_client_griffon.so
