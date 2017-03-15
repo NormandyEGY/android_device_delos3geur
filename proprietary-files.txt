@@ -212,3 +212,18 @@ bin/thermald
 lib/libthermalclient.so
 lib/libadc.so
 bin/mpdecision
+
+## keylayout
+
+usr/keylayout/atmel_mxt_ts.kl
+usr/keylayout/7x27a_kp.kl
+usr/keylayout/surf_keypad.kl
+usr/keylayout/Vendor_04e8_Product_7021.kl
+usr/keylayout/7k_handset.kl
+usr/keylayout/synaptics_rmi4_i2c.kl
+usr/keylayout/ft5x06_ts.kl
+usr/keylayout/gpio-keys.kl
+
+## keychars
+
+usr/keychars/7x27a_kp.kcm
