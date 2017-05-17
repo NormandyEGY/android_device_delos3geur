@@ -49,8 +49,6 @@ ro.fm.mulinst.recording.support=false
 
 ## USB, storage
 persist.sys.usb.config=mtp,adb
-persist.sys.vold.switchexternal=0
-ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
 ro.vold.umsdirtyratio=50
 
 ## Dalvik
