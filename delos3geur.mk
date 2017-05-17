@@ -25,6 +25,12 @@ PRODUCT_COPY_FILES += \
     device/samsung/delos3geur/rootdir/initlogo.rle:root/initlogo.rle \
     device/samsung/delos3geur/rootdir/initlogo_swa.rle:root/initlogo_swa.rle
 
+# For userdebug builds
+ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += ro.debuggable=1
+ADDITIONAL_DEFAULT_PROPERTIES += persist.service.adb.enable=1
+
 ## Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml 
