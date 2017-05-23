@@ -24,7 +24,7 @@ persist.dsds.enabled=true
 persist.radio.multisim.config=dsds
 
 ro.multi.rild=true
-ro.telephony.ril_class=SamsungRIL
+ro.telephony.ril_class=JSRQualcommRIL
 ro.telephony.ril.v3=skippinpukcount,qcomdsds
 ro.telephony.ril.config=skippinpukcount,qcomdsds
 
