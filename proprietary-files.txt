@@ -180,14 +180,3 @@ usr/keylayout/gpio-keys.kl
 ## keychars
 
 usr/keychars/7x27a_kp.kcm
-
-## Gps
-
-lib/libgps.utils.so
-lib/hw/gps.default.so:lib/hw/gps.msm7x27a.so
-lib/libgps.so
-lib/libloc_eng.so
-lib/libloc_adapter.so
-xbin/gps-start.sh:bin/gps-start.sh
-xbin/gps-reset.sh:bin/gps-reset.sh
-etc/gps.conf
