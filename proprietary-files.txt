@@ -7,7 +7,6 @@ bin/hci_qcomm_init
 bin/abtfilt
 bin/rmt_storage
 bin/fmconfig
-bin/hostapd
 bin/bccmd
 lib/libmm-adspsvc.so
 lib/libgemini.so
@@ -114,7 +113,6 @@ bin/mm-aenc-omxaac-test
 bin/mm-adec-omxQcelpHw-test
 lib/libOmxAdpcmDec.so
 lib/libOmxAmrwbDec.so
-lib/libOmxCore.so
 lib/libOmxWmaDec.so
 lib/libOmxAacDec.so
 lib/libOmxIttiamVdec.so
@@ -158,19 +156,8 @@ lib/libimage-jpeg-enc-omx-comp.so
 
 ## Audio
 lib/libaudcal.so
-lib/libaudioparameter.so
 lib/libaudioeq.so
 lib/libmm-audio-resampler.so
-lib/libmvsechocanceler.so
-lib/libSamsungAnimation.so
-lib/libsamsungDiamondVoice.so
-lib/libSamsungPDLComposer_MD.so
-lib/libsamsungpowersound.so
-lib/libsamsungRecord.so
-lib/lib_SamsungRec_V02002.so
-lib/lib_Samsung_Resampler.so
-lib/lib_Samsung_SB_AM_for_ICS_v03008.so
-lib/libsamsungSoundbooster.so
 
 ## Thermal
 etc/thermald-8x25q-msm2-msm_therm.conf:etc/thermald.conf
