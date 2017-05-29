@@ -179,3 +179,7 @@ usr/keylayout/gpio-keys.kl
 ## keychars
 
 usr/keychars/7x27a_kp.kcm
+
+## Gps
+
+etc/gps.conf
