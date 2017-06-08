@@ -7,7 +7,6 @@ bin/hci_qcomm_init
 bin/abtfilt
 bin/rmt_storage
 bin/fmconfig
-bin/bccmd
 lib/libmm-adspsvc.so
 lib/libgemini.so
 lib/libmmjpeg.so
@@ -183,3 +182,11 @@ usr/keychars/7x27a_kp.kcm
 ## Gps
 
 etc/gps.conf
+
+#Bluez
+bin/bccmd
+bin/btnvtool
+etc/PSConfig_7820.psr
+lib/libbluetooth.so
+lib/libbluetoothd.so
+lib/libbtio.so
