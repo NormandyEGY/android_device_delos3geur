@@ -190,3 +190,4 @@ etc/PSConfig_7820.psr
 lib/libbluetooth.so
 lib/libbluetoothd.so
 lib/libbtio.so
+lib/libbt-aptx-4.0.3.so
