@@ -7,8 +7,6 @@ bin/hci_qcomm_init
 bin/abtfilt
 bin/rmt_storage
 bin/fmconfig
-bin/hostapd
-bin/bccmd
 lib/libmm-adspsvc.so
 lib/libgemini.so
 lib/libmmjpeg.so
@@ -31,6 +29,10 @@ lib/libatparser.so
 lib/libfactoryutil.so
 lib/libomission_avoidance.so
 lib/libnvaccessor.so
+lib/libdiag.so
+lib/libnv.so
+lib/libqc-opt.so
+lib/libnetmgr.so
 
 ## graphics
 
@@ -56,7 +58,6 @@ lib/libtilerenderer.so
 
 ## camera
 lib/hw/camera.msm7627a.so:lib/hw/camera.msm7x27a.so
-lib/liboemcamera.so
 lib/libsecnativefeature.so
 lib/libmmcamera_image_stab.so
 lib/libmmcamera_frameproc.so
@@ -110,7 +111,6 @@ bin/mm-aenc-omxaac-test
 bin/mm-adec-omxQcelpHw-test
 lib/libOmxAdpcmDec.so
 lib/libOmxAmrwbDec.so
-lib/libOmxCore.so
 lib/libOmxWmaDec.so
 lib/libOmxAacDec.so
 lib/libOmxIttiamVdec.so
@@ -154,19 +154,8 @@ lib/libimage-jpeg-enc-omx-comp.so
 
 ## Audio
 lib/libaudcal.so
-lib/libaudioparameter.so
 lib/libaudioeq.so
 lib/libmm-audio-resampler.so
-lib/libmvsechocanceler.so
-lib/libSamsungAnimation.so
-lib/libsamsungDiamondVoice.so
-lib/libSamsungPDLComposer_MD.so
-lib/libsamsungpowersound.so
-lib/libsamsungRecord.so
-lib/lib_SamsungRec_V02002.so
-lib/lib_Samsung_Resampler.so
-lib/lib_Samsung_SB_AM_for_ICS_v03008.so
-lib/libsamsungSoundbooster.so
 
 ## Thermal
 etc/thermald-8x25q-msm2-msm_therm.conf:etc/thermald.conf
@@ -192,11 +181,17 @@ usr/keychars/7x27a_kp.kcm
 
 ## Gps
 
-lib/libgps.utils.so
-lib/hw/gps.default.so:lib/hw/gps.msm7x27a.so
-lib/libgps.so
-lib/libloc_eng.so
-lib/libloc_adapter.so
-xbin/gps-start.sh:bin/gps-start.sh
-xbin/gps-reset.sh:bin/gps-reset.sh
 etc/gps.conf
+
+#Bluez
+bin/bccmd
+bin/btnvtool
+etc/PSConfig_7820.psr
+lib/libbluetooth.so
+lib/libbluetoothd.so
+lib/libbtio.so
+lib/libbt-aptx-4.0.3.so
+
+# battery
+bin/qosmgr
+etc/qosmgr_rules.xml
