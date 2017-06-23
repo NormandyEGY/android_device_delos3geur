@@ -7,6 +7,8 @@ bin/hci_qcomm_init
 bin/abtfilt
 bin/rmt_storage
 bin/fmconfig
+bin/sensord
+bin/gpu_dcvsd
 lib/libmm-adspsvc.so
 lib/libgemini.so
 lib/libmmjpeg.so
