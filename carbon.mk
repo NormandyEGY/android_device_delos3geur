@@ -12,17 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
-
-## Inherit common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+## Inherit common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 ## Inherit device files
 $(call inherit-product, device/samsung/delos3geur/delos3geur.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := cm_delos3geur
+PRODUCT_NAME := carbon_delos3geur
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I8552

@@ -46,17 +46,6 @@ lib/egl/libGLESv1_CM_adreno200.so
 lib/libOpenVG.so
 lib/libsc-a2xx.so
 lib/libgsl.so
-#lib/hw/gralloc.msm7627a.so:lib/hw/gralloc.msm7x27a.so
-#lib/hw/copybit.msm7627a.so:lib/hw/copybit.msm7x27a.so
-#lib/hw/hwcomposer.msm7627a.so:lib/hw/hwcomposer.msm7x27a.so
-#lib/libgenlock.so
-#lib/liboverlay.so
-#lib/libmemalloc.so
-#lib/libhwcexternal.so
-#lib/libhwcservice.so
-#lib/libqdutils.so
-#lib/libqdMetaData.so
-#lib/libtilerenderer.so
 
 ## camera
 lib/hw/camera.msm7627a.so:lib/hw/camera.msm7x27a.so
@@ -160,6 +149,7 @@ lib/libaudioeq.so
 lib/libmm-audio-resampler.so
 
 ## Thermal
+
 etc/thermald-8x25q-msm2-msm_therm.conf:etc/thermald.conf
 bin/thermald
 lib/libthermalclient.so
@@ -169,21 +159,11 @@ bin/mpdecision
 ## keylayout
 
 usr/keylayout/atmel_mxt_ts.kl
-usr/keylayout/7x27a_kp.kl
-usr/keylayout/surf_keypad.kl
 usr/keylayout/Vendor_04e8_Product_7021.kl
 usr/keylayout/7k_handset.kl
 usr/keylayout/synaptics_rmi4_i2c.kl
 usr/keylayout/ft5x06_ts.kl
 usr/keylayout/gpio-keys.kl
-
-## keychars
-
-usr/keychars/7x27a_kp.kcm
-
-## Gps
-
-etc/gps.conf
 
 #Bluez
 bin/bccmd
