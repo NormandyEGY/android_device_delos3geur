@@ -19,6 +19,6 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-add_lunch_combo cm_delos3geur-eng
-add_lunch_combo cm_delos3geur-user
-add_lunch_combo cm_delos3geur-userdebug
+add_lunch_combo cm_normandy-eng
+add_lunch_combo cm_normandy-user
+add_lunch_combo cm_normandy-userdebug

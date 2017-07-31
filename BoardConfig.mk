@@ -15,16 +15,16 @@
 # BoardConfig.mk
 #
 
-include device/samsung/msm7x27a-common/BoardConfigCommon.mk
+include device/nokia/msm7x27a-common/BoardConfigCommon.mk
 
 ## Platform
-TARGET_BOOTLOADER_BOARD_NAME := delos3geur
+TARGET_BOOTLOADER_BOARD_NAME := normandy
 
 ## Kernel
-TARGET_KERNEL_CONFIG := delos_defconfig
+TARGET_KERNEL_CONFIG := normandy_null_defconfig
 
 ## Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/delos3geur/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/nokia/normandy/bluetooth
 
 ## OTA assert
-TARGET_OTA_ASSERT_DEVICE := delos3geur,GT-I8552
+TARGET_OTA_ASSERT_DEVICE := normandy

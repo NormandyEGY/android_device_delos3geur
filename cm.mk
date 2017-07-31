@@ -19,15 +19,23 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Inherit device files
-$(call inherit-product, device/samsung/delos3geur/delos3geur.mk)
+$(call inherit-product, device/nokia/normandy/normandy.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := cm_delos3geur
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-I8552
-PRODUCT_RELEASE_NAME := GT-I8552
-PRODUCT_DEVICE := delos3geur
+PRODUCT_NAME := cm_normandy
+PRODUCT_BRAND := Nokia
+PRODUCT_MANUFACTURER := Nokia
+PRODUCT_MODEL := normandy
+PRODUCT_RELEASE_NAME := normandy
+PRODUCT_DEVICE := normandy
+
+# Set build fingerprint / ID / Product Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_BRAND=Nokia \
+    PRODUCT_NAME=Nokia_XL \
+    BUILD_PRODUCT=RM-1030
+
+#    BUILD_FINGERPRINT=qcom/msm8625/msm8625:4.1.2/JZO54K/eng.ZYC.20140213.151118:eng/test-keys
 
 ## Bootanimation
 TARGET_SCREEN_HEIGHT := 800

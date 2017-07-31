@@ -1,4 +1,4 @@
-CyanogenMod 10.1 device configuration for Samsung Galaxy Win - GT-I8552
+CyanogenMod 12.1 device configuration for Nokia X-XL normandy
 
 Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
