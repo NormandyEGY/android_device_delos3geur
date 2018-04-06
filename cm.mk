@@ -15,11 +15,13 @@
 ## Specify phone tech before including full_phone
 #$(call inherit-product, vendor/cm/config/gsm.mk)
 
+LOCAL_PATH := device/nokia/normandy
+
 ## Inherit common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Inherit device files
-$(call inherit-product, device/nokia/normandy/normandy.mk)
+$(call inherit-product, $(LOCAL_PATH)/normandy.mk)
 
 ## Setup device configuration
 PRODUCT_NAME := cm_normandy

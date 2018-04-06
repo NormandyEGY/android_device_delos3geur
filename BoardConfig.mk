@@ -17,6 +17,8 @@
 
 include device/generic/msm7x27a/BoardConfigCommon.mk
 
+LOCAL_PATH := device/nokia/normandy
+
 ## Platform
 TARGET_BOOTLOADER_BOARD_NAME := msm7x27a
 
@@ -24,7 +26,10 @@ TARGET_BOOTLOADER_BOARD_NAME := msm7x27a
 TARGET_KERNEL_CONFIG := normandy_null_defconfig
 
 ## Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/nokia/normandy/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
 ## OTA assert
 TARGET_OTA_ASSERT_DEVICE := normandy
+
+#Fstab
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom

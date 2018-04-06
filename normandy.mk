@@ -12,7 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS += device/nokia/normandy/overlay
+LOCAL_PATH := device/nokia/normandy
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 include device/generic/msm7x27a/msm7x27a.mk
 
