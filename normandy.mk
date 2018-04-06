@@ -14,7 +14,7 @@
 
 DEVICE_PACKAGE_OVERLAYS += device/nokia/normandy/overlay
 
-include device/nokia/msm7x27a-common/msm7x27a.mk
+include device/generic/msm7x27a/msm7x27a.mk
 
 ## Build torch app
 PRODUCT_PACKAGES += \

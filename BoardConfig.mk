@@ -15,7 +15,7 @@
 # BoardConfig.mk
 #
 
-include device/nokia/msm7x27a-common/BoardConfigCommon.mk
+include device/generic/msm7x27a/BoardConfigCommon.mk
 
 ## Platform
 TARGET_BOOTLOADER_BOARD_NAME := normandy
