@@ -17,19 +17,21 @@
 
 include device/generic/msm7x27a/BoardConfigCommon.mk
 
-LOCAL_PATH := device/nokia/normandy
+DEVICE_PATH := device/nokia/normandy
 
 ## Platform
 TARGET_BOOTLOADER_BOARD_NAME := msm7x27a
 
 ## Kernel
+TARGET_KERNEL_SOURCE := kernel/nokia/normandy
 TARGET_KERNEL_CONFIG := normandy_null_defconfig
-
+#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/linaro
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 ## Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 ## OTA assert
 TARGET_OTA_ASSERT_DEVICE := normandy
 
 #Fstab
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
